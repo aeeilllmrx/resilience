@@ -1,0 +1,71 @@
+{
+    "Permeable Pavement": {
+        "Description": "A surface alternative to pavement that allows for water to reach the soil underneath it.",
+        "Cost": 4000,
+        "Habitat": 1,
+        "Sense of Place": 1,
+        "Jobs": 1,
+        "Water Supply": 1
+    },
+    "Solar Panel": {
+        "Description": "A device that converts sunlight to electricity to power buildings and other infrastructure on-site.",
+        "Cost": 1000,
+        "CO2 Reduction": 5,
+        "Jobs": 3
+    },
+    "Vegetable Garden": {
+        "Description": "A group of food-bearing plants which provide nourishment and increase food security and beauty.",
+        "Cost": 4000,
+        "Food": 3,
+        "Habitat": 2,
+        "Community": 2
+    },
+    "Infiltration Basin": {
+        "Description": "Landscaped depression with porous soils that allows stormwater to refill groundwater basins.",
+        "Cost": 700000,
+        "Flood Safety": 5,
+        "Water Supply": 5,
+        "Habitat": 4
+    },
+    "Sports Area": {
+        "Description": "A place for exercising and athletics that brings residents together and increases personal health.",
+        "Cost": 60000,
+        "Recreation": 5,
+        "Community": 4,
+        "Jobs": 3
+    },
+    "Playground": {
+        "Description": "An outdoor area where children can gather and play.",
+        "Cost": 200000,
+        "Recreation": 5,
+        "Community": 4,
+        "Jobs": 3,
+        "Public Health": 4
+    },
+    "Rain Garden": {
+        "Description": "A garden designed to catch stormwater and redirect it towards plant growth and soil enrichment.",
+        "Cost": 4000,
+        "Water Supply": 2,
+        "Habitat": 2
+    },
+    "Shade Tree": {
+        "Description": "A woody, perennial plant that provides shade, cooling temperatures and reducing energy costs.",
+        "Cost": 4000,
+        "CO2 Reduction": 2,
+        "Habitat": 2,
+        "Cooling": 3
+    },
+    "Cooling Station": {
+        "Description": "A staffed area with a shade structure, drinking fountain, and misting device to cool down visitors.",
+        "Cost": 100000,
+        "Cooling": 4,
+        "Public Health": 4,
+        "Community": 2
+    },
+    "Bike Rack": {
+        "Description": "A place for people to park and lock their own bicycles.",
+        "Cost": 1000,
+        "Air Quality": 1,
+        "Jobs": 1
+    }
+}
