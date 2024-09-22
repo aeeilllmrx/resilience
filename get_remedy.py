@@ -1,5 +1,8 @@
 def map_deadzone_to_remedy(features_map: dict):
     """
+    Currently not used. This is an example of a simple score-based
+    method that maps a set of features to a remedy based on predefined weights.
+
     # Example usage:
     features = {
         'size': 0.8,  # Normalized size (0 to 1)
@@ -62,7 +65,6 @@ def map_deadzone_to_remedy(features_map: dict):
                 elif isinstance(value, bool):  # Binary values
                     scores[remedy] += weight if value else -weight
                 elif isinstance(value, str):  # Categorical values
-                    # Assume categorical values are on a scale: 'low', 'medium', 'high'
                     cat_value = {"low": -1, "medium": 0, "high": 1}.get(
                         value.lower(), 0
                     )
